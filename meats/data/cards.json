@@ -1,0 +1,86 @@
+[
+
+    {
+        "image": "../meats/assets/beer.png",
+        "name": "beer"
+    },
+    {
+        "image": "../meats/assets/boiledEgg.png",
+        "name": "boiledEgg"
+    },
+    {
+        "image": "../meats/assets/bread.png",
+        "name": "bread"
+    },
+    {
+        "image": "../meats/assets/cheese.png",
+        "name": "cheese"
+    },
+    {
+        "image": "../meats/assets/chicken.png",
+        "name": "chicken"
+    },
+    {
+        "image": "../meats/assets/cutlery.png",
+        "name": "cutlery"
+    },
+    {
+        "image": "../meats/assets/frenchFries.png",
+        "name": "frenchFries"
+    },
+    {
+        "image": "../meats/assets/knife.png",
+        "name": "knife"
+    },
+    {
+        "image": "../meats/assets/meat.png",
+        "name": "meat"
+    },
+    {
+        "image": "../meats/assets/mushroom.png",
+        "name": "mushroom"
+    },
+    {
+        "image": "../meats/assets/noodle.png",
+        "name": "noodle"
+    },    
+    {
+        "image": "../meats/assets/rice.png",
+        "name": "rice"
+    },
+    {
+        "image": "../meats/assets/sausage.png",
+        "name": "sausage"
+    },
+    {
+        "image": "../meats/assets/softDrink.png",
+        "name": "softDrink"
+    },
+    {
+        "image": "../meats/assets/soup.png",
+        "name": "soup"
+    },
+    {
+        "image": "../meats/assets/strawberry.png",
+        "name": "strawberry"
+    },
+    {
+        "image": "../meats/assets/wine.png",
+        "name": "wine"
+    },
+    {
+        "image": "../meats/assets/tea.png",
+        "name": "tea"
+    },
+    {
+        "image": "../meats/assets/donut.png",
+        "name": "donut"
+    },    {
+        "image": "../meats/assets/corn.png",
+        "name": "corn"
+    },    {
+        "image": "../meats/assets/champagne.png",
+        "name": "champagne"
+    }
+    
+]
