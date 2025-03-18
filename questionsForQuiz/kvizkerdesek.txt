@@ -1,0 +1,174 @@
+Kvízkérdések
+
+Alapmondatok kategória:
+	0- Jó reggelt - Bom dia!
+	0- Jó estét - Boa tarde / Boa noite!
+	0- Jó éjszakát - Boa noite!
+	0- Viszlát később! - Até mais tarde!
+	0- Viszlát holnap! - Até amanhã!
+	0- Hogy vagy? - Como vai?
+	0- Honnan jöttél? - De onde você é?
+	0- Hány éves vagy? - Quantos anos você tem?
+	0- Sajnálom. - Dasculpa.
+	0- Elnézést. - Com licença.
+	0- Elnézést (ha pl. összeütközünk valakivel) - Desculpe
+	0- Köszönöm szépen! - Muito obrigada / obrigado!
+	0- Szívesen! - De nada.
+	0- Örülök, hogy találkoztunk! - É um prazer!
+	0- Szép napot! - Tenha um bom dia!
+	0- Viszontlátásra! - Até logo!
+	0- Éhes vagyok. - Estou com fome.
+	0- Szomjas vagyok. - Estou com sede.
+	0- Fáradt vagyok. - Estou cansado.
+	0- Nem tudom. - Eu não sei.
+	0- Igen - Sim
+	0- Nem - Não
+	0- Kérlek - Por favor
+	0- Hogy mondja? - Como se diz?
+	0- Ismételje meg kérem! - Repita, por favor!
+	0- Mit mondtál? - O que você disse?
+	0- Nem értem. - Eu não entendi.
+	
+Ünnep kategória
+	0- Boldog születésnapot! - Feliz aniversário!
+	0- Sok szerencsét! - Boa sorte!
+	0- Boldog Új Évet! - Feliz Ano Novo!
+	0- Boldog Karácsonyt! - Feliz Natal!
+	0- Születésnapi képeslap - Cartão de aniversário
+	0- Gratulálok! - Parabéns!
+	0- Ajándék - Presente
+	0- Akarsz táncolni? - Você quer dançar?
+	0- Igen, szeretnék táncolni. - Sim, eu quero dançar.
+	0- Nem akarok táncolni. - Eu não quero dançar.
+	- Hozzám jössz feleségül? - Você quer se casar comigo?
+	
+Érzelmek kategória
+	- Boldog - Feliz
+	- Szomorú - Triste
+	- Mérges - Bravo
+	- Félelem - Medo
+	- Öröm - Alegria
+	- Meglepett - Surpreso
+	- Nyugalom - Calmo
+	- Élő - Vivo
+	- Halott - Morto
+	- Egyedül - Sozinho
+	- Együtt - Juntos
+	- Unalom - Entediado
+	- Künnyű - Fácil
+	- Nehéz - Difícil
+	- Rossz - Ruim
+	- Jó - Bom
+	- Sajnálom - Sinto muito
+	- Ne aggódj! - Não se preocupe
+	
+Napok, hónapok kategória
+	- A hét napjai - Os dias da semana
+	0- Hétfő - Segunda-feira
+	0- Kedd - Terça-feira
+	0- Szerda - Quarta-feira
+	0- Csütörtök - Quinta-feira
+	0- Péntek - Sexta-feira
+	0- Szombat - Sábado
+	0- Vasárnap - Domingo
+	0- Nap - Dia
+	0- Hét - Semana
+	0- Hétvége - Final de semana
+	- Az év hónapjai - Os meses do ano
+	- Január - Janeiro
+	- Február - Fevereiro
+	- Március - Março
+	- Április - Abril
+	- Május - Maio
+	- Június - Junho
+	- Július - Julho
+	- Augusztus - Agosto
+	- Szeptember - Setembro
+	- Október - Outubro
+	- November - Novembro
+	- December - Dezembro
+	- Hónap - Mês
+	- Év - Ano
+	
+Színek kategória
+	0- Szín - Cor
+	0- Fekete - Preto
+	0- Fehér - Braco
+	0- Kék - Azul
+	0- Barna - Marrom
+	0- Zöld - Verde
+	0- Narancssárga - Alaranjado
+	0- Lila - Roxo
+	0- Piros - Vermelho
+	0- Sárga - Amarelo
+	0- Szürke - Cinza
+	0- Aranyszínű - Dourado
+	0- Ezüstszínű - Prateado
+	0- Milyen színű ez? - Qual é a cor?
+	0- Piros színű. - A cor é vermelha.
+	
+Földrajz és csillagászat kategória
+	- Vulkán - (o) Vulcão
+	- Erdő - (a) Floresta
+	- Dzsungel - (a) Selva
+	- Hegy - (a) Montanha
+	- Hegyvonulat - (a) Serra
+	- Domb - (a) Colina
+	- Vízesés - (a) Cachoeira
+	- Folyó - (o) Rio
+	- Tó - (o) Lago
+	- Sivatag - (o) Deserto
+	- Félsziget - (a) Península
+	- Sziget - (a) Ilha
+	- Strand - (a) Praia
+	- Óceán - (o) Oceano
+	- Tenger - (o) Mar
+	- Öböl - (a) Baía
+	- Tengerpart - (a) Costa
+	- Galaxis - Galáxia
+	- Csillag - Estrela
+	- Hold - Lua
+	- Bolygó - Planeta
+	- Aszteroida - Asteróide
+	- Üstökös - Cometa
+	- Meteor - Meteoro
+	- Űr - Espaço
+	- Világegyetem - Universo
+	- Teleszkóp - Telescópio
+	- Naprendszer - Sistema solar
+	- Nap - Sol
+	- Merkúr - Mercúrio
+	- Vénusz - Vênus
+	- Föld - Terra
+	- Mars - Marte
+	- Jupiter - Júpiter
+	- Szaturnusz - Saturno
+	- Uránusz - Urano
+	- Neptunusz - Neptuno
+	- Plútó - Plutão
+	
+Évszakok és időjárás kategória
+	0- Évszakok - Estaçoes
+	0- Tél - (o) Inverno
+	0- Nyár - (o) Verão
+	0- Tavasz - (a) Primavera
+	0- Ősz - (o) Outono
+	0- Ég - Céu
+	0- Felhő - Nuvem
+	0- Szivárvány - Arco-íris
+	0- Hideg (időjárás) - Frio
+	0- Meleg (időjárás) - Quente
+	0- Meleg van - Está quente
+	0- Hideg van - Está frio
+	0- Napos idő van - Está ensolarando
+	0- Felhős idő van - Está nublado
+	0- Nedves idő van - Está úmido
+	0- Esik az eső - Está chovendo
+	0- Havazik - Está nevando
+	0- Szeles idő van - Está ventando
+	0- Milyen az idő? - Como está o clima?
+	0- Jó idő - Tempo agradável
+	0- Rossz idő - Tempo feio
+	0- Hány fok van? - Qual é a temperatura?
+	0- 24 fok van. - Está fazento vinte e quatro graus.
+	

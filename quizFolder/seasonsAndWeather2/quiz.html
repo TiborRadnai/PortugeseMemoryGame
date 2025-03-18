@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+
+    <main class="main">
+        <header class="header">
+            <a href="" class="logo">Játszószoba.</a>
+
+            <nav class="navbar">
+                <a href="" class="active">Kvíz játékok</a>
+                <a href="">Memória kártyajátékok</a>
+                <a href="">Dalszövegek</a>
+                <a href="">PPL Főoldala</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Nyelvtanuló Kvíz</h1>
+                    <div class="quiz-header">
+                        <span>Időjárás</span>
+                        <span class="header-score">Pontszám: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">What does HTML stand for?</h2>
+
+                    <div class="option-list">
+                        <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>B. Hyper Text Multiple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Home Text Multi Language</span>
+                        </div>
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 az 5 Kérdésből</span>
+                        <button class="next-btn">Következő</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Végeredmény!</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Your Score 0 out of 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Újrapróbálom</button>
+                        <button class="goHome-btn">Kilépés</button>
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Kvízjáték</h1>
+                    <p>Ezzel a játékkal szórakoztatóan tanulhatsz. Érj el minél több pontot a válaszkitalálós játékban. Gyarapítsd nyelvtudásod a portugál kifejezések, mondatok és kérdések terén.</p>
+                        <button class="start-btn">Játék indítása</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Játékszabályok</h2>
+        <span class="info">1. Indítsd el a játékot a tovább gombbal!</span>
+        <span class="info">2. Kattints az általad helyesnek gondolt válaszra!.</span>
+        <span class="info">3. Ezután láthatod, hogy válaszod korrekt volt e.</span>
+        <span class="info">4. Kattints a következő gombra, és játsz tovább!</span>
+        <span class="info">5. A legvégén csekkold a végeredményt.</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Kilépés</button>
+            <a href="#" class="info-btn continue-btn">Tovább</a>
+        </div>
+    </div>
+
+
+
+    <script src="js/questions.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
