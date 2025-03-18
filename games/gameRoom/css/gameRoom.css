@@ -7,6 +7,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
 section {
     min-height: 100vh;
     background: url('../images/background.jpg') no-repeat;
@@ -156,4 +161,25 @@ section {
 
 .sidebar.active ul li .tooltip {
     display: none;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    min-height: 80vh;
+    background: rgba(255, 255, 255, .9);
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+.container .title {
+    font-size: 75px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c40094;
+    text-shadow: 3px 3px 3px  #327aff;
+
 }
