@@ -1,0 +1,194 @@
+[
+    { 	"word": "Feliz", 
+		"hint": "Ez egy pozitív érzelem, amit akkor érzünk, ha minden rendben." },
+		
+    { 	"word": "Triste", 
+		"hint": "Egy érzelem, amit szomorú pillanatokban élünk át." },
+		
+    { 	"word": "Bravo", 
+		"hint": "Amikor valaki haragos vagy dühös." },
+		
+    { 	"word": "Medo", 
+		"hint": "Ez az érzelem jelentkezik, amikor valaki fél." },
+		
+    { 	"word": "Alegria", 
+		"hint": "A boldogság egyik fajtája, örömteli pillanatokban tapasztaljuk." },
+		
+    { 	"word": "Surpreso", 
+		"hint": "Amikor valami váratlan történik, és csodálkozunk." },
+		
+    { 	"word": "Calmo", 
+		"hint": "Az érzelem, amit nyugodt helyzetekben érzünk." },
+		
+    { 	"word": "Vivo", 
+		"hint": "Amikor valami élettel teli, ellentéte a halott." },
+		
+    { 	"word": "Morto", 
+		"hint": "Az ellentéte az élőnek, élettelen állapot." },
+		
+    { 	"word": "Sozinho", 
+		"hint": "Amikor valaki egyedül van, társ nélkül." },
+		
+    { 	"word": "Juntos", 	
+		"hint": "Amikor emberek vagy dolgok együtt vannak." },
+		
+    { 	"word": "Entediado", 
+		"hint": "Ezt az érzést az unalom idézi elő." },
+		
+    { 	"word": "Fácil", 
+		"hint": "Amire azt mondjuk, hogy nem nehéz." },
+		
+    { 	"word": "Difícil", 
+		"hint": "Amire azt mondjuk, hogy nem könnyű." },
+		
+    { 	"word": "Ruim", 
+		"hint": "Valami, ami nem jó, ellentétes a jósággal." },
+		
+    { 	"word": "Bom", 
+		"hint": "Amire azt mondjuk, hogy pozitív vagy jó." },
+		
+    { 	"word": "Estaçoes", 
+		"hint": "Az év négy részre osztható szakasza." },
+		
+    { 	"word": "Inverno", 
+		"hint": "Az év leghidegebb évszaka." },
+		
+    { 	"word": "Verão", 
+		"hint": "Amikor a nap sokat süt, az év legmelegebb része." },
+		
+    { 	"word": "Primavera", 
+		"hint": "Amikor a természet virágba borul, a tél után következik." },
+		
+    { 	"word": "Outono", 
+		"hint": "Amikor a levelek hullanak, a nyár után következik." },
+		
+    { 	"word": "Céu", 
+		"hint": "Felettünk van, nappal kék, éjjel csillagos." },
+		
+    { 	"word": "Nuvem", 
+		"hint": "Az égen lebegő vízpára, ami fehér vagy szürke." },
+		
+    { 	"word": "Arco-íris", 
+		"hint": "Eső után az égen színes csíkok jelennek meg." },
+		
+    { 	"word": "Frio", 
+		"hint": "Az alacsony hőmérséklet érzése." },
+		
+    { 	"word": "Quente", 
+		"hint": "A magas hőmérséklet érzése." }
+		
+	{ 	"word": "Vulcão", 
+		"hint": "Egy hegy, amely forró lávát lövell ki." },
+		
+    { 	"word": "Floresta", 
+		"hint": "Sok fák és növények egy helyen." },
+		
+    { 	"word": "Selva", 
+		"hint": "Egy sűrű, trópusi erdő." },
+		
+    { 	"word": "Montanha", 
+		"hint": "Egy nagy, magas földrajzi forma." },
+		
+    { 	"word": "Serra", 
+		"hint": "Hegyekből álló vonulat." },
+		
+    { 	"word": "Colina", 
+		"hint": "Egy kisebb, domború földrajzi forma." },
+		
+    { 	"word": "Cachoeira", 
+		"hint": "Zuhogó víz, ami folyóból esik le magasból." },
+		
+    { 	"word": "Rio", 
+		"hint": "Egy hosszú, folyóvíz." },
+		
+    { 	"word": "Lago", 
+		"hint": "Egy állóvíz, amelyet föld vesz körül." },
+		
+    { 	"word": "Deserto", 
+		"hint": "Egy nagyon száraz terület, kevés vízzel." },
+		
+    { 	"word": "Península", 	
+		"hint": "Szárazföld, amit három oldalról víz vesz körül." },
+		
+    { 	"word": "Ilha", "hint": 
+		"Teljesen víz által körülvett szárazföld." },
+		
+    { 	"word": "Praia", 
+		"hint": "Homokos partvidék a víz mellett." },
+		
+    { 	"word": "Oceano", 
+		"hint": "A legnagyobb víztömeg a Földön." },
+		
+    { 	"word": "Mar", 
+		"hint": "Az óceán kisebb része, partok közelében." },
+		
+    { 	"word": "Baía", 
+		"hint": "Egy víztest, amely egy partot karéjoz." },
+		
+    { 	"word": "Costa", 
+		"hint": "A tenger vagy óceán melletti partvidék." },
+		
+    { 	"word": "Galáxia", 
+		"hint": "Csillagok, bolygók és más égitestek nagy csoportja az űrben." },
+		
+    { 	"word": "Estrela", 
+		"hint": "Az égen fénylő, önállóan sugárzó égitest." },
+		
+    { 	"word": "Lua", 
+		"hint": "A Föld éjszakai kísérője az égen." },
+		
+    { 	"word": "Planeta", 
+		"hint": "Nagy, kerek égitest, amely egy csillag körül kering." },
+		
+    { 	"word": "Asteróide", 
+		"hint": "Kisebb kőzetdarab, amely az űrben mozog." },
+		
+    { 	"word": "Cometa", 
+		"hint": "Jégből és porból álló égitest, ami csóvát húz maga mögött." },
+		
+    { 	"word": "Meteoro", 
+		"hint": "Egy űrből a Föld légkörébe érkező kődarab." },
+		
+    { 	"word": "Espaço", 
+		"hint": "A világegyetem végtelen tágassága." },
+	
+    { 	"word": "Universo", 
+		"hint": "Minden létező térben és időben." },
+		
+    { 	"word": "Telescópio", 
+		"hint": "Eszköz, amely távoli égitesteket nagyít fel." },
+		
+    { 	"word": "Sistema solar", 
+		"hint": "Nap körül keringő bolygók és más égitestek rendszere." },
+	
+    { 	"word": "Sol", 
+		"hint": "A naprendszer központi csillaga." },
+		
+    { 	"word": "Mercúrio", 
+		"hint": "A Naphoz legközelebb eső bolygó." },
+		
+    { 	"word": "Vênus", 
+		"hint": "Bolygó, amit 'Esthajnalcsillagnak' is neveznek." },
+		
+    {	"word": "Terra", 
+		"hint": "Az a bolygó, ahol élünk." },
+		
+    { 	"word": "Marte", 
+		"hint": "Vörös bolygóként ismert, a Föld szomszédja." },
+		
+    { 	"word": "Júpiter", 
+		"hint": "A Naprendszer legnagyobb bolygója." },
+		
+    { 	"word": "Saturno", 
+		"hint": "Bolygó, amely híres gyűrűiről." },
+		
+    { 	"word": "Urano", 
+		"hint": "Kékes színű bolygó a Naprendszerben." },
+		
+    { 	"word": "Neptuno", 
+		"hint": "A Naprendszer legtávolabbi bolygója." },
+		
+    { 	"word": "Plutão", 
+		"hint": "Korábban bolygónak tekintetták, most törpebolygó." },
+		
+]
