@@ -134,11 +134,11 @@ let questions = [
     {
         numb: 13,
         question: "Fehér",
-        answer: "C. Braco",
+        answer: "C. Branco",
         options: [
                 "A. Cor",
                 "B. Preto",
-                "C. Braco",
+                "C. Branco",
                 "D. Marrom"
         ]
     },
