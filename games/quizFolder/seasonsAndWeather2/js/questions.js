@@ -2,7 +2,7 @@ let questions = [
     {
         numb: 1,
         question: "Havazik",
-        answer: "A. Está nevando",
+        answer: "C. Está nevando",
         options: [
                 "A. Está ventando",
                 "B. Está chovendo",

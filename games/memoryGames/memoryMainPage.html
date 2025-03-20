@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memóriakártyajáték</title>
-    <link rel="stylesheet" href="css/animals.css">
+    <link rel="stylesheet" href="css/memoryMainPage.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <title>Memóriajáték</title>
 </head>
 <body>
-    <!-- Sidebar Items Start -->
+<!-- Sidebar Items Start -->
     <section>
         <div class="sidebar">
             <div class="logo-content">
@@ -51,14 +51,23 @@
             </ul>
         </div>
 <!-- Sidebar Items End -->
-<h1>Memóriajáték</h1>
-<h2>Állatok</h2>
-<div class="grid-container"></div>
-<p>Pontszám: <span class="score"></span></p>
-<div class="actions">
-    <button onclick="restart()">Újrakezdés</button>
-</div>
-    <script src="js/animal.js"></script>
+<!-- Contents Start -->
+
+    </section>
+    <div class="container">
+        <h1 class="title">Memóriajáték</h1>
+        <ul class="level-menu">
+            <li class="level-list"><a href="../memoryGames/animal/animals.html" target="_blank"><button class="level-btn">Állatok</button></a>
+                <p class="level-subscribe">Kezdőszint, ahol a segítség magyar nyelvű, viszont a megfejtést portugálul kell megadnod. <br> A feladatban csak szavak szerepelnek.</p>
+            </li>
+            <li class="level-list"><a href="../memoryGames/meats/meats.html" target="_blank"><button class="level-btn">Ételek</button></a>
+                <p class="level-subscribe">Emeltebb szint, itt már a segítség portugál nyelvű és a megfejtést is portugálul kell megadnod. <br> A feladatban csak szavak szerepelnek.</p>
+            </li>
+
+        </ul>
+    </div>
+<!-- Contents End -->
+
+    <script src="js/memoryMainPage.js"></script>
 </body>
 </html>
-

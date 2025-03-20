@@ -13,41 +13,6 @@ body {
     overflow: hidden;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10px;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.logo {
-    font-size: 32px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    filter: drop-shadow(0 0 5px #09001d);
-}
-
-.navbar a {
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
-}
-
-.navbar a:hover,
-.navbar a.active {
-    color: #c40094;
-}
-
 .main {
     min-height: 100vh;
     background: url('../images/background.jpg') no-repeat;
