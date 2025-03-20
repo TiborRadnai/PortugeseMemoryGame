@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/hangmanMainPage.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Szókitaláló</title>
+</head>
+<body>
+<!-- Sidebar Items Start -->
+    <section>
+        <div class="sidebar">
+            <div class="logo-content">
+                <div class="logo">
+                    <i class='bx bxl-flutter'></i>
+                    <h3>Játszószoba</h3>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="list">
+                <li class="list-item">
+                    <a href="">
+                        <i class='bx bx-bulb'></i>
+                        <span class="links-name">Kvízjátékok</span>
+                    </a>
+                    <span class="tooltip">Kvízjátékok</span>
+                </li>
+                <li class="list-item">
+                    <a href="">
+                        <i class='bx bx-image-alt'></i>
+                        <span class="links-name">Memóriajátékok</span>
+                    </a>
+                    <span class="tooltip">Memóriajátékok</span>
+                </li>
+                <li class="list-item active">
+                    <a href="">
+                        <i class='bx bx-notepad'></i>
+                        <span class="links-name">Szókitalálós</span>
+                    </a>
+                    <span class="tooltip">Szókitalálós</span>
+                </li>
+                <li class="list-item">
+                    <a href="">
+                        <i class='bx bx-equalizer'></i>
+                        <span class="links-name">Dalszövegek</span>
+                    </a>
+                    <span class="tooltip">Dalszövegek</span>
+                </li>
+            </ul>
+        </div>
+<!-- Sidebar Items End -->
+<!-- Contents Start -->
+
+    </section>
+    <div class="container">
+        <h1 class="title">Akasztófa</h1>
+        <ul class="level-menu">
+            <li class="level-list"><a href="/level1/hangmanLevel_1.html"><button class="level-btn">1. szint</button></a><p class="level-subscribe">Kezdőszint, ahol a segítség magyar nyelvű, viszont a megfejtést portugálul kell megadnod. <br> A feladatban csak szavak szerepelnek.</p></li>
+            <li class="level-list"><a href="/level2/hangmanLevel_2.html"><button class="level-btn">2. szint</button></a><p class="level-subscribe">Emeltebb szint, itt már a segítség portugál nyelvű és a megfejtést is portugálul kell megadnod. <br> A feladatban csak szavak szerepelnek.</p></li>
+            <li class="level-list"><a href="#"><button class="level-btn">3. szint</button></a><p class="level-subscribe">Középhaladó szint. Itt egy magyar nyelvű mondatot kell portugál nyelvre lefordítani. </p></li>
+            <li class="level-list"><a href="#"><button class="level-btn">4. szint</button></a><p class="level-subscribe">Haladó szint. Ezen a szinten egy portugál kérdésre kell helyesen válaszolni természetesen portugálul.</p></li>
+        </ul>
+    </div>
+<!-- Contents End -->
+
+
+
+
+    <script src="js/hangmanMainPage.js"></script>
+</body>
+</html>

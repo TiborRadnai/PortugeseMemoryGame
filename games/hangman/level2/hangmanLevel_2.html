@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akasztófa játék</title>
+    <link rel="stylesheet" href="css/hangman.css">
+    <script src="js/word-list.js" defer></script>
+    <script src="js/hangman.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <section>
+        <div class="sidebar">
+            <div class="logo-content">
+                <div class="logo">
+                    <i class='bx bxl-flutter'></i>
+                    <h3>Játszószoba</h3>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="list">
+                <li class="list-item">
+                    <a href="">
+                        <i class='bx bx-bulb'></i>
+                        <span class="links-name">Kvízjátékok</span>
+                    </a>
+                    <span class="tooltip">Kvízjátékok</span>
+                </li>
+                <li class="list-item">
+                    <a href="">
+                        <i class='bx bx-image-alt'></i>
+                        <span class="links-name">Memóriajátékok</span>
+                    </a>
+                    <span class="tooltip">Memóriajátékok</span>
+                </li>
+                <li class="list-item active">
+                    <a href="">
+                        <i class='bx bx-notepad'></i>
+                        <span class="links-name">Szókitalálós</span>
+                    </a>
+                    <span class="tooltip">Szókitalálós</span>
+                </li>
+                <li class="list-item">
+                    <a href="">
+                        <i class='bx bx-equalizer'></i>
+                        <span class="links-name">Dalszövegek</span>
+                    </a>
+                    <span class="tooltip">Dalszövegek</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+        <div class="game-modal">
+            <div class="content">
+                <img src="images/lost.gif" alt="sad-gif">
+                <h4>Game Over!</h4>
+                <p>The correct word was: <b>rainbow</b></p>
+                <button class="play-again">Új játék</button>
+            </div>
+        </div>
+    <div class="game-content">
+        <div class="container">
+        <div class="hangman-box">
+            <img src="images/hangman-0.svg" alt="hangman-img">
+            <h1>Akasztófa</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display">
+            </ul>
+            <h4 class="hint-text">
+                Tipp:
+                <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</b>
+            </h4>
+            <h4 class="guesses-text">
+                Helytelen találatok:
+                <b>0 / 6</b>
+            </h4>
+            <div class="keyboard">
+            </div>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>
