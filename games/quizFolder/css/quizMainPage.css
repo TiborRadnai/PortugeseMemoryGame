@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,18 +11,23 @@ html, body {
     height: 100%;
     margin: 0;
 }
-body{
+
+body {
     min-height: 100vh;
-    kmin-width: 100vh;
-    background-color: #12181f;
-    color: white;
-    font-family: "Poppins", sans-serif;
+    height: 100%;
     background: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+    animation: animateBg 5s linear infinite;}
+
+/* @keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */
+/* Sidebar Items */
 .sidebar {
     position: fixed;
     top: 0;
@@ -158,35 +164,37 @@ body{
 .sidebar.active ul li .tooltip {
     display: none;
 }
-h1 {
-    margin: 40px 0;
-    text-align: center;
-    font-weight: 700;
+
+/* Content Items */
+.container {
+    position: relative;
+    margin: auto;
+    top: 0;
+    transform: none;
+    width: 60%;
+    min-height: calc(100vh - 120px);
+    background: rgba(255, 255, 255, .7);
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+.container .title {
     font-size: 75px;
-    text-transform: uppercase;
-
-}
-h2 {
-    text-align: center;
     font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-
-p {
-    margin: 50px 0 50px 0;
     text-align: center;
-    font-size: 40px;
-    font-weight: bold;
+    text-transform: uppercase;
+    color: #c40094;
+    text-shadow: 3px 3px 3px  #327aff;
+
 }
 
-.actions {
-    display: flex;
-    justify-content: center;
+.container .level-list {
+    list-style: none;
+    margin-top: 30px;
+    padding: 20px 20px;
+    text-align: center;
 }
 
-.actions button {
-    margin-bottom: 50px;
+.container .level-btn {
     width: 190px;
     height: 55px;
     background: #c40094;
@@ -202,60 +210,11 @@ p {
     transition: .5s;
 }
 
-.actions button:hover {
+.container .level-btn:hover {
     background: #09001d;
     box-shadow: none;
 }
 
-.grid-container {
-    display: grid;
-    justify-content: center;
-    grid-gap: 16px;
-    grid-template-columns: repeat(8, 140px);
-    grid-template-rows: repeat(2, calc(140px / 2 *3));
-}
-
-.card {
-    height: calc(140px / 2 *3);
-    width: 140px;
-    border-radius: 10px;
-    background-color: white;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease-in-out;
-}
-
-.front-image {
-    width: 100%;
-    height: 100%;
-}
-
-.card.flipped {
-    transform: rotateY(180deg);
-}
-
-.front,
-.back {
-    backface-visibility: hidden;
-    position: absolute;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.card .front {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: rotateY(180deg);
-}
-.card .back {
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='72.69' height='42' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M0 0v9.09l19.4 11.2 4.83-2.8 3.03-5.24v-5.6L15.72 0Zm28.48 0v16.45L9.09 27.66v5.59l3.02 5.25 4.84 2.8 19.4-11.22L55.73 41.3l4.83-2.8 3.03-5.25v-5.58l-19.4-11.2V0Zm28.48 0L45.43 6.66v5.59l3.03 5.25 4.83 2.79 19.4-11.2V0ZM0 12.25V42h15.74l-7.87-4.55v-22.4l-4.84-2.8Zm69.66 0-4.84 2.8v22.4L56.95 42H72.7V12.25Zm-36.34 21-4.84 2.8V42H44.2v-5.96l-4.84-2.8z'  stroke-width='1' stroke='none' fill='hsla(47,80.9%,61%,1)'/><path d='m18.17 0 9.09 5.25V0Zm27.26 0v5.25L54.52 0ZM63.6 15.74 54.5 21l9.1 5.25v-10.5Zm-54.51 0v10.5L18.17 21Zm18.17 21L18.16 42h9.1zm18.17 0V42h9.06l.02-.01zM54.5 42h.01z'  stroke-width='1' stroke='none' fill='hsla(4.1,89.6%,58.4%,1)'/><path d='M0 0v3.5l24.23 14 3.02-1.75v-3.5L6.06 0Zm33.32 0v19.24l-24.23 14v3.5l3.02 1.76 24.23-14 24.23 14 3.03-1.75v-3.5l-24.23-14V0Zm33.31 0-21.2 12.25v3.5l3.03 1.74 24.23-14v.01V0Zm6.06 10.5-3.03 1.75v28L66.62 42h6.07V10.5ZM0 10.5V42h6.05l-3.02-1.74V12.25Zm36.34 21-3.02 1.74V42h6.05v-8.75Z'  stroke-width='1' stroke='none' fill='hsla(186.8,100%,41.6%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
-    background-position: center center;
-    background-size: cover;
-    backface-visibility: hidden;
-
-    
+.container .level-list .level-subscribe {
+    padding-top: 20px;
 }

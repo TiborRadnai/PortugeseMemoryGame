@@ -62,7 +62,7 @@ let questions = [
                 "A. Cartão de aniversário",
                 "B. Feliz aniversário",
                 "C. Feliz Natal",
-                "D. Feliz Ano NovoIgen, szeretnék táncolni."
+                "D. Feliz Ano Novo"
         ]
     },
     {
