@@ -23,7 +23,7 @@ const resetGame = () => {
 
 const portugueseChars = [
     ...'abcdefghijklmnopqrstuvwxyz', // angol betűk
-    'á', 'â', 'ã', 'ç', 'é', 'ê', 'í', 'ó', 'ô', 'õ', 'ú', 'Û' // speciális karakterek
+    'á', 'â', 'ã', 'ç', 'é', 'ê', 'í', 'ó', 'ô', 'õ', 'ú', 'Û','-' // speciális karakterek
 ];
 const sortedChars = portugueseChars.sort((a, b) => a.localeCompare(b));
 
