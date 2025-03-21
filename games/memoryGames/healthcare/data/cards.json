@@ -1,0 +1,66 @@
+[
+    {
+        "image": "../healthcare/assets/ambulance.png",
+        "name": "ambulance"
+    },
+    {
+        "image": "../healthcare/assets/band_aid.png",
+        "name": "band_aid"
+    },
+    {
+        "image": "../healthcare/assets/blood.png",
+        "name": "blood"
+    },
+    {
+        "image": "../healthcare/assets/capsules.png",
+        "name": "capsules"
+    },
+    {
+        "image": "../healthcare/assets/dentistry.png",
+        "name": "dentistry"
+    },
+    {
+        "image": "../healthcare/assets/doctor.png",
+        "name": "doctor"
+    },
+    {
+        "image": "../healthcare/assets/first_aid_kit.png",
+        "name": "first_aid_kit"
+    },
+    {
+        "image": "../healthcare/assets/helicopter.png",
+        "name": "helicopter"
+    },
+    {
+        "image": "../healthcare/assets/hospital.png",
+        "name": "hospital"
+    },
+    {
+        "image": "../healthcare/assets/medical_mask.png",
+        "name": "medical_mask"
+    },
+    {
+        "image": "../healthcare/assets/obstetrics.png",
+        "name": "obstetrics"
+    },
+    {
+        "image": "../healthcare/assets/ophthalmology.png",
+        "name": "ophthalmology"
+    },
+    {
+        "image": "../healthcare/assets/syringe.png",
+        "name": "syringe"
+    },
+    {
+        "image": "../healthcare/assets/thermometer.png",
+        "name": "thermometer"
+    },
+    {
+        "image": "../healthcare/assets/virus.png",
+        "name": "virus"
+    },
+    {
+        "image": "../healthcare/assets/wheelchair.png",
+        "name": "wheelchair"
+    }
+]

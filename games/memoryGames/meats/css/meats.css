@@ -1,25 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body{
     min-height: 100vh;
     min-width: 100vh;
     background-color: #12181f;
     color: white;
+    font-family: "Poppins", sans-serif;
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(5px);
+    border-right: 2px solid rgba(255, 255, 255, .07);
+    padding: 6px 14px;
+    transition: .5s ease;
+}
+
+.sidebar.active {
+    width: 240px;
+}
+
+.sidebar .logo-content .logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    pointer-events: none;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.sidebar.active .logo-content .logo {
+    transition-delay: .2s;
+    opacity: 1;
+}
+
+.logo-content .logo i {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.logo-content .logo h3 {
+    font-size: 20px;
+}
+
+.sidebar #btn {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sidebar.active #btn {
+    left: 90%;
+
+}
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    margin: 5px 0;
+    line-height: 50px;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    white-space: nowrap;
+    transition: .5s ease;
+}
+
+.sidebar ul li a:hover {
+    background: rgba(255, 255, 255, .1);
+}
+
+.sidebar ul .list-item.active a {
+    background: #c40094;
+}
+
+.sidebar ul li i {
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sidebar .links-name {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease;
+}
+
+.sidebar.active .links-name {
+    transition-delay: .2s;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar ul li .tooltip {
+    position: absolute;
+    top: 0;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    width: 135px;
+    height: 35px;
+    background: #c40094;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    text-align: center;
+    line-height: 35px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.sidebar ul li:hover .tooltip {
+    transition: .5s ease;
+    top: 50%;
+    opacity: 1;
+}
+
+.sidebar.active ul li .tooltip {
+    display: none;
 }
 
 h1 {
     text-align: center;
     font-weight: 700;
     font-size: 50px;
+    text-transform: uppercase;
 }
 h2 {
     text-align: center;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 50px;
 }
 
 p {
+    margin: 50px 0 50px 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -29,20 +185,32 @@ p {
 }
 
 .actions button {
-    padding: 8px 16px;
-    font-size: 30px;
-    border-radius: 10px;
-    background-color: #27ae60;
-    color: white;
+    margin-bottom: 50px;
+    width: 190px;
+    height: 55px;
+    background: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.actions button:hover {
+    background: #09001d;
+    box-shadow: none;
 }
 
 .grid-container {
-    margin-left: auto;
-    margin-right: auto;
     display: grid;
     justify-content: center;
     grid-gap: 16px;
-    grid-template-columns: repeat(6, 140px);
+    grid-template-columns: repeat(8, 140px);
     grid-template-rows: repeat(2, calc(140px / 2 *3));
 }
 
@@ -58,7 +226,7 @@ p {
 
 .front-image {
     width: 100%;
-    Cheight: 100%;
+    height: 100%;
 }
 
 .card.flipped {
@@ -83,7 +251,7 @@ p {
     transform: rotateY(180deg);
 }
 .card .back {
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='29' height='50.115' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M14.498 16.858L0 8.488.002-8.257l14.5-8.374L29-8.26l-.002 16.745zm0 50.06L0 58.548l.002-16.745 14.5-8.373L29 41.8l-.002 16.744zM28.996 41.8l-14.498-8.37.002-16.744L29 8.312l14.498 8.37-.002 16.745zm-29 0l-14.498-8.37.002-16.744L0 8.312l14.498 8.37-.002 16.745z'  stroke-width='1' stroke='hsla(47,80.9%,61%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='72.69' height='42' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(240,6.7%,17.6%,1)'/><path d='M0 0v9.09l19.4 11.2 4.83-2.8 3.03-5.24v-5.6L15.72 0Zm28.48 0v16.45L9.09 27.66v5.59l3.02 5.25 4.84 2.8 19.4-11.22L55.73 41.3l4.83-2.8 3.03-5.25v-5.58l-19.4-11.2V0Zm28.48 0L45.43 6.66v5.59l3.03 5.25 4.83 2.79 19.4-11.2V0ZM0 12.25V42h15.74l-7.87-4.55v-22.4l-4.84-2.8Zm69.66 0-4.84 2.8v22.4L56.95 42H72.7V12.25Zm-36.34 21-4.84 2.8V42H44.2v-5.96l-4.84-2.8z'  stroke-width='1' stroke='none' fill='hsla(47,80.9%,61%,1)'/><path d='m18.17 0 9.09 5.25V0Zm27.26 0v5.25L54.52 0ZM63.6 15.74 54.5 21l9.1 5.25v-10.5Zm-54.51 0v10.5L18.17 21Zm18.17 21L18.16 42h9.1zm18.17 0V42h9.06l.02-.01zM54.5 42h.01z'  stroke-width='1' stroke='none' fill='hsla(4.1,89.6%,58.4%,1)'/><path d='M0 0v3.5l24.23 14 3.02-1.75v-3.5L6.06 0Zm33.32 0v19.24l-24.23 14v3.5l3.02 1.76 24.23-14 24.23 14 3.03-1.75v-3.5l-24.23-14V0Zm33.31 0-21.2 12.25v3.5l3.03 1.74 24.23-14v.01V0Zm6.06 10.5-3.03 1.75v28L66.62 42h6.07V10.5ZM0 10.5V42h6.05l-3.02-1.74V12.25Zm36.34 21-3.02 1.74V42h6.05v-8.75Z'  stroke-width='1' stroke='none' fill='hsla(186.8,100%,41.6%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;

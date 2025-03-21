@@ -58,6 +58,9 @@
     {
         "image": "../animal/assets/shark.png",
         "name": "shark"
+    },
+    {
+        "image": "../animal/assets/spider.png",
+        "name": "snake"
     }
-    
 ]
