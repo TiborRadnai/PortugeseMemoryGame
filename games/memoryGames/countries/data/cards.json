@@ -1,0 +1,66 @@
+[
+    {
+        "image": "../countries/assets/austria.png",
+        "name": "austria"
+    },
+    {
+        "image": "../countries/assets/brasil.png",
+        "name": "brasil"
+    },
+    {
+        "image": "../countries/assets/canada.png",
+        "name": "canada"
+    },
+    {
+        "image": "../countries/assets/china.png",
+        "name": "china"
+    },
+    {
+        "image": "../countries/assets/european_union.png",
+        "name": "european_union"
+    },
+    {
+        "image": "../countries/assets/france.png",
+        "name": "france"
+    },
+    {
+        "image": "../countries/assets/germany.png",
+        "name": "germany"
+    },
+    {
+        "image": "../countries/assets/hungary.png",
+        "name": "hungary"
+    },
+    {
+        "image": "../countries/assets/japan.png",
+        "name": "japan"
+    },
+    {
+        "image": "../countries/assets/russia.png",
+        "name": "russia"
+    },
+    {
+        "image": "../countries/assets/norway.png",
+        "name": "norway"
+    },
+    {
+        "image": "../countries/assets/spain.png",
+        "name": "spain"
+    },
+    {
+        "image": "../countries/assets/switzerland.png",
+        "name": "switzerland"
+    },
+    {
+        "image": "../countries/assets/united_kingdom.png",
+        "name": "united_kingdom"
+    },
+    {
+        "image": "../countries/assets/usa.png",
+        "name": "usa"
+    },
+    {
+        "image": "../countries/assets/italy.png",
+        "name": "italy"
+    }
+]

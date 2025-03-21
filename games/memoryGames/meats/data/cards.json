@@ -21,16 +21,8 @@
         "name": "chicken"
     },
     {
-        "image": "../meats/assets/cutlery.png",
-        "name": "cutlery"
-    },
-    {
         "image": "../meats/assets/frenchFries.png",
         "name": "frenchFries"
-    },
-    {
-        "image": "../meats/assets/knife.png",
-        "name": "knife"
     },
     {
         "image": "../meats/assets/meat.png",
@@ -65,22 +57,11 @@
         "name": "strawberry"
     },
     {
-        "image": "../meats/assets/wine.png",
-        "name": "wine"
-    },
-    {
         "image": "../meats/assets/tea.png",
         "name": "tea"
     },
     {
-        "image": "../meats/assets/donut.png",
-        "name": "donut"
-    },    {
         "image": "../meats/assets/corn.png",
         "name": "corn"
-    },    {
-        "image": "../meats/assets/champagne.png",
-        "name": "champagne"
-    }
-    
+    }    
 ]
