@@ -267,7 +267,6 @@ button {
 }
 
 .read_more:hover:before {
-     width: 140px;
      opacity: 1;
      transition: ease-in all 0.5s;
 }
@@ -296,6 +295,7 @@ button {
 
 .img_responsive {
      max-width: 100%;
+     oborder-radius: 20%;
 }
 
 
@@ -357,7 +357,7 @@ z-index: 999;
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
      color: #fff;
-     background: #f0390f;
+     background: #da291c;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -365,7 +365,7 @@ z-index: 999;
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #fff;
-     background: #f0390f;
+     background: #da291c;
 }
 
 .di_no {
@@ -466,7 +466,7 @@ ul.email li i {
 #carouselExampleIndicators .carousel-control-next {
      width: 66px;
      height: 66px;
-     background-color: #3e0bce;
+     background-color: #046a38;
      color: #fff;
      font-size: 15px;
      opacity: 1;
@@ -487,7 +487,7 @@ ul.email li i {
 #carouselExampleIndicators .carousel-control-next:hover,
 #carouselExampleIndicators .carousel-control-prev:focus,
 #carouselExampleIndicators .carousel-control-prev:hover {
-     background-color: #f0390f;
+     background-color: #da291c;
      color: #fff;
 }
 
@@ -517,7 +517,7 @@ ul.email li i {
 
 .class_box {
      border-radius: 10px;
-     background: #f0390f;
+     background: #da291c;
      margin-bottom: 58px;
      transition: ease-in all 0.5s;
      padding: 40px 50px 75px 50px;
@@ -540,7 +540,7 @@ ul.email li i {
 }
 
 .blue {
-     background: #3e0bce;
+     background: #046a38;
 }
 
 .margi_bottom {
@@ -554,7 +554,7 @@ ul.email li i {
 /** about section **/
 
 .about {
-     background: url(../images/about_bg.jpg);
+     background: url(../images/background.jpg);
      background-size: cover;
      background-position: center center;
      background-repeat: no-repeat;
@@ -592,12 +592,12 @@ ul.email li i {
 
 .about .read_more {
      color: #fff;
-     background: #3e0bce;
+     background: transparent;
 }
 
 .about .read_more:hover {
      color: #f0390f;
-     background: #3e0bce;
+     background: transparent;
 }
 
 
