@@ -17,6 +17,7 @@
     --second-text-color: #555;
     --white-color: #fff;
     --table-color: #D6EEEE;
+    --table-hover-color: #f0f8ff;
     --cover-color: linear-gradient(45deg, #00abf0, #006e9a);
     --pages-color: linear-gradient(90deg, #fff, #ddd);
     --border: .125rem solid #00abf0;
@@ -224,25 +225,10 @@ color: var(--main-color);
     margin-bottom: 1rem;
 }
 
-.workeduc-box {
-    border-left: var(--border);
-}
-
 .workeduc-box .workeduc-content {
     position: relative;
     padding-left: 1.6rem;
     margin-bottom: 1.2rem;
-}
-
-.workeduc-box .workeduc-content::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -0.65rem;
-    width: 1.2rem;
-    height: 1.2rem;
-    background: var(--main-color);
-    border-radius: 50%;
 }
 
 .workeduc-content .year {
@@ -498,11 +484,25 @@ table {
     padding: 0 0 10px 0;
     font-size: 1.3rem;
 }
+
 .table-contents {
     text-align: center;
+
 }
+
 .table-contents:nth-child(even) {
     background:var(--table-color);
 }
-.table-contents:hover {
-    background: var(--main-color);}
+
+/* .table-contents td:nth-child(2):hover {
+    background: var(--main-color);
+} */
+
+.table-contents td:nth-child(2) {
+    cursor: pointer;
+}
+
+.table-contents td:nth-child(2):hover {
+    background:var(--table-hover-color); /* Halvány kék háttér */
+    transition: background-color 0.3s ease; /* Simább animáció */
+}
