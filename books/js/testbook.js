@@ -95,3 +95,13 @@ pages.forEach((_, index) => {
         }, 500)
     }, (index + 1) * 200 + 2100)
 })
+
+
+document.querySelectorAll('.table-contents td:nth-child(2)').forEach(cell => {
+    cell.addEventListener('click', () => {
+        const szoveg = cell.textContent;
+        const utterance = new SpeechSynthesisUtterance(szoveg);
+        utterance.lang = 'pt-PT';
+        window.speechSynthesis.speak(utterance);
+    });
+});
