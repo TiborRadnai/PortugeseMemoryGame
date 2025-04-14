@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <title>PlayfulPortugeseLearning</title>
+      <title>PortuPlay.hu</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -47,16 +47,16 @@
                               <a class="nav-link" href="index.html">Főoldal</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="about.html">Nyelvtanulás</a>
+                              <a class="nav-link" href="#games">Játékok</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="games/gameRoom/gameRoom.html">Játékok</a>
+                              <a class="nav-link" href="#learning">Nyelvtanulás</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="shop.html">Dalszövegek</a>
+                              <a class="nav-link" href="#lyrics">Dalszövegek</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="contact.html">Kapcsolat</a>
+                              <a class="nav-link" href="#aboutUs">Kapcsolat</a>
                            </li>
                         </ul>
                      </div>
@@ -94,11 +94,10 @@
                                     <div  class="col-md-5">
                                        <div class="board">
                                           <i><img src="images/top_icon.png" alt="#"/></i>
-                                          <h3>
-                                             Játszva <br> Tanulj<br>Portugálul!
-                                          </h3>
+                                          <h3>PortuPlay.hu</h3>
+                                          <h5>Játszva és aktívan portugálul!</h5>
                                           <div class="link_btn">
-                                             <a class="read_more" href="Javascript:void(0)">A játszótérre   <span></span></a>
+                                             <a class="read_more" href="#games">Játszószoba<span></span></a>
                                           </div>
                                        </div>
                                     </div>
@@ -117,11 +116,10 @@
                                     <div  class="col-md-5">
                                        <div class="board">
                                           <i><img src="images/top_icon.png" alt="#"/></i>
-                                          <h3>
-                                             Játszva <br> Tanulj<br>Portugálul!                                      
-                                          </h3>
+                                          <h3>PortuPlay.hu</h3>
+                                          <h5>Játszva és aktívan portugálul!</h5>
                                           <div class="link_btn">
-                                             <a class="read_more" href="Javascript:void(0)">A suliba   <span></span></a>
+                                             <a class="read_more" href="#learning">Nyelvtanulás<span></span></a>
                                           </div>
                                        </div>
                                     </div>
@@ -140,11 +138,10 @@
                                     <div  class="col-md-5">
                                        <div class="board">
                                           <i><img src="images/top_icon.png" alt="#"/></i>
-                                          <h3>
-                                             Játszva <br> Tanulj<br>Portugálul!                                          
-                                          </h3>
+                                          <h3>PortuPlay.hu</h3>
+                                          <h5>Játszva és aktívan portugálul!</h5>
                                           <div class="link_btn">
-                                             <a class="read_more" href="Javascript:void(0)">A táncparkettre   <span></span></a>
+                                             <a class="read_more" href="#lyrics">Dalszövegek<span></span></a>
                                           </div>
                                        </div>
                                     </div>
@@ -174,8 +171,8 @@
       </div>
       <!-- end banner -->
 
-      <!-- our class -->
-      <div class="class">
+      <!-- games (JÁTSZÓSZOBA) -->
+      <div class="games" id="games">
          <div class="container">
             <div class="row">
                <div class="col-md-12">
@@ -187,59 +184,87 @@
             </div>
             <div class="row">
                <div class="col-md-4 margi_bottom">
-                  <div class="class_box text_align_center">
-                     <i><img src="images/class1.png" alt="#"/></i>
-                     <h3>Memóriajátékok</h3>
-                     <p>Kártyák segítségével játékosan bővítheted szókincsed. Válogass a kategóriák között és ismerj meg minél több új szót! </p>
-                  </div>
-                  <a class="read_more" href="Javascript:void(0)">Tovább</a>
+                  <figure class="hovered-div">
+                     <a target="_blank" href="games/memoryGames/memoryMainPage.html">
+                        <div class="games_box text_align_center">
+                           <i><img src="images/class1.png" alt="Memóriajáték ikon"/></i>
+                           <h3>Memóriajátékok</h3>
+                           <p>Kártyák segítségével játékosan bővítheted szókincsed. Válogass a kategóriák között és ismerj meg minél több új szót! </p>
+                        </div>
+                     </a>
+                  </figure>
                </div>
                <div class="col-md-4 margi_bottom">
-                  <div class="class_box blue text_align_center">
-                     <i><img src="images/class2.png" alt="#"/></i>
-                     <h3>Kvízjátékok</h3>
-                     <p>A különböző nehézségi fokozatok közül válaszd ki a tudásodnak legmegfelelőbbet és próbáld ki magad! </p>
-                  </div>
-                  <a class="read_more" href="Javascript:void(0)">Tovább</a>
+                  <figure class="hovered-div">
+                     <a target="_blank" href="games/quizFolder/quizMainPage.html">
+                        <div class="games_box blue text_align_center">
+                           <i><img src="images/class2.png" alt="Kvízjáték ikon"/></i>
+                           <h3>Kvízjátékok</h3>
+                           <p>A különböző nehézségi fokozatok közül válaszd ki a tudásodnak legmegfelelőbbet és próbáld ki magad! </p>
+                        </div>
+                     </a>
+                  </figure>
                </div>
                <div class="col-md-4 margi_bottom">
-                  <div class="class_box text_align_center">
-                     <i><img src="images/class3.png" alt="#"/></i>
-                     <h3>Szókitalálós</h3>
-                     <p>A közkedvelt akasztófa játékkal szavakat és mondatokat kell kitalálni. Itt szintén több szint között tudsz válogatni. </p>
-                  </div>
-                  <a class="read_more" href="Javascript:void(0)">Tovább</a>
+                  <figure class="hovered-div">
+                     <a target="_blank" href="games/hangman/hangmanMainPage.html">
+                        <div class="games_box text_align_center">
+                           <i><img src="images/class3.png" alt="Szókitaláló ikon"/></i>
+                           <h3>Szókitalálók</h3>
+                           <p>A közkedvelt akasztófa játékkal szavakat és mondatokat kell kitalálni. Itt szintén több szint között tudsz válogatni. </p>
+                        </div>
+                     </a>
+                  </figure>
                </div>
             </div>
          </div>
       </div>
-      <!-- end our class -->
-             <!-- about -->
-             <div class="about mt-5">
+      <!-- end games (JÁTSZÓSZOBA)-->
+
+      <!--learning (NYELVTANULÁS)-->
+            <div class="learning mt-5" id="learning">
                <div class="container-fluid">
                   <div class="row d_flex">
                      <div class="col-md-6">
-                        <div class="titlepage text_align_left">
-                           <h2>Szavak, <br>Kifejezések, <br> Mondatok</h2>
-                           <p>Kezd el a tanulást teljesen az alapoktól még ma! Bővítsd a szókincsed napról-napra, alkoss mondatokat, ismerj meg minél több portugál kifejezést!
-                              A tananyagok listája folyamatosan bővül, a munkafüzet letölthető formátuma segít a gyakorlásban, a játékokkal tesztelheted tudásod. 
+                        <div class="titlepage text_align_center mb-5">
+                           <h2>Nyelvtanulás</h2>
+                           <p>Tanulj zenehallgatással! Ismert portugál dalok magyarra fordítva.
                            </p>
-                           <div class="link_btn">
-                              <a class="read_more" href="about.html">Irány a suli</a>
-                           </div>
                         </div>
                      </div>
-                     <div class="col-md-6">
-                        <div class="about_img text_align_center">
-                           <figure><img src="images/about1.png" alt="#"/></figure>
+                  </div>
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="learning-box ">
+                           <figure class="hovered-image">
+                              <a href="#"><img src="images/Language Textbook.png" alt="#"/></a>
+                              <div class="caption">Tankönyv</div>
+                           </figure>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="learning-box">
+                           <figure class="hovered-image">
+                              <a href="#"><img src="images/Writing.png" alt="#"/></a>
+                              <div class="caption">Munkafüzet</div>
+                           </figure>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="learning-box">
+                           <figure class="hovered-image">
+                              <a href="#"><img src="images/Vocabulary.png" alt="#"/></a>
+                              <div class="caption">Szótárfüzetek</div>
+                           </figure>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-            <!-- end about -->
-      <!-- skating -->
-      <div class="skating">
+      <!-- end learning (NYELVTANULÁS) -->
+
+      <!-- lyrics (DALSZÖVEGEK)-->
+      <div class="lyrics" id="lyrics">
          <div class="container-fluid">
             <div class="row">
                <div class="col-md-12">
@@ -252,35 +277,36 @@
             </div>
             <div class="row">
                <div class="col-md-4">
-                  <div class="skating-box ">
-                     <figure><img src="images/sakt1.png" alt="#"/></figure>
+                  <div class="lyrics-box ">
+                     <figure class="hovered-image"><img src="images/sakt1.png" alt="#"/></figure>
                      <div class="link_btn">
-                        <a class="read_more" href="Javascript:void(0)">Bárbara Bandeira</a>
+                        <a class="read_more" href="Javascript:void(0)">Bárbara Bandeira - E Se Eu <br> (És ha én)</a>
                      </div>
                   </div>
                </div>
                <div class="col-md-4">
-                  <div class="skating-box">
-                     <figure><img src="images/sakt2.png" alt="#"/></figure>
+                  <div class="lyrics-box">
+                     <figure class="hovered-image"><img src="images/sakt2.png" alt="#"/></figure>
                      <div class="link_btn">
-                        <a class="read_more" href="Javascript:void(0)">Salvador Sobral</a>
+                        <a class="read_more" href="Javascript:void(0)">Salvador Sobral - Amar pelos Dois <br> (Kettőnk helyett szeretni)</a>
                      </div>
                   </div>
                </div>
                <div class="col-md-4">
-                  <div class="skating-box">
-                     <figure><img src="images/sakt3.png" alt="#"/></figure>
+                  <div class="lyrics-box">
+                     <figure class="hovered-image"><img src="images/sakt3.png" alt="#"/></figure>
                      <div class="link_btn">
-                        <a class="read_more" href="Javascript:void(0)">Margarida Vasconcelos</a>
+                        <a class="read_more" href="Javascript:void(0)">Margarida Vasconcelos - Tudo o Que Sou <br> (Minden, ami én vagyok)</a>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end skating -->
-      <!-- shop -->
-      <div class="shop">
+      <!-- end lyrics (DALSZÖVEGEK)-->
+
+      <!-- aboutUs (RÓLUNK)-->
+      <div class="aboutUs" id="aboutUs">
          <div class="container-fluid">
             <div class="row d_flex d_grid">
                <div class="col-md-7">
@@ -300,138 +326,8 @@
             </div>
          </div>
       </div>
-      <!-- end shop -->
-      <!-- testimonial 
-       <div class="testimonial">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="titlepage text_align_center">
-                     <h2>Testimonial</h2>
-                  </div>
-               </div>
-            </div>
-             start slider section
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div class="col-md-3">
-                                       <div class="test_box text_align_center">
-                                          <span><img src="images/test1.png" alt="#"/></span>
-                                          <h4>Jone Lo</h4>
-                                          <img class="img_responsive" src="images/te.png" alt="#"/>
-                                          <p>humour, or randomised words which don't look even slightly believable. If you are</p>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="test_box white_bg text_align_center">
-                                          <span><img src="images/test2.png" alt="#"/></span>
-                                          <h4>Michale</h4>
-                                          <img class="img_responsive" src="images/te2.png" alt="#"/>
-                                          <p>humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                       <div class="test_box text_align_center">
-                                          <span><img src="images/test3.png" alt="#"/></span>
-                                          <h4>Disol</h4>
-                                          <img class="img_responsive" src="images/te.png" alt="#"/>
-                                          <p>humour, or randomised words which don't look even slightly believable. If you are</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div class="col-md-3">
-                                       <div class="test_box text_align_center">
-                                          <span><img src="images/test2.png" alt="#"/></span>
-                                          <h4>Michale</h4>
-                                          <img class="img_responsive" src="images/te.png" alt="#"/>
-                                          <p>humour, or randomised words which don't look even slightly believable. If you are</p>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="test_box white_bg text_align_center">
-                                          <span><img src="images/test3.png" alt="#"/></span>
-                                          <h4>Disol</h4>
-                                          <img class="img_responsive" src="images/te2.png" alt="#"/>
-                                          <p> humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                       <div class="test_box text_align_center">
-                                          <span><img src="images/test1.png" alt="#"/></span>
-                                          <h4>Jone Lo</h4>
-                                          <img class="img_responsive" src="images/te.png" alt="#"/>
-                                          <p>humour, or randomised words which don't look even slightly believable. If you are</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div class="col-md-3">
-                                       <div class="test_box text_align_center">
-                                          <span><img src="images/test3.png" alt="#"/></span>
-                                          <h4>Disol</h4>
-                                          <img class="img_responsive" src="images/te.png" alt="#"/>
-                                          <p>humour, or randomised words which don't look even slightly believable. If you are</p>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <div class="test_box  white_bg text_align_center">
-                                          <span><img src="images/test1.png" alt="#"/></span>
-                                          <h4>Jone Lo</h4>
-                                          <img class="img_responsive" src="images/te2.png" alt="#"/>
-                                          <p> humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure</p>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                       <div class="test_box text_align_center">
-                                          <span><img src="images/test2.png" alt="#"/></span>
-                                          <h4>Michale</h4>
-                                          <img class="img_responsive" src="images/te.png" alt="#"/>
-                                          <p>humour, or randomised words which don't look even slightly believable. If you are</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>  -->
-      <!-- end testimonial -->
+      <!-- end aboutUs (RÓLUNK)-->
+
       <!--  footer -->
       <footer>
          <div class="footer">
@@ -458,10 +354,10 @@
                                     <div class="col-md-12">
                                     </div>
                                     <div class="col-md-4">
-                                       <input class="newsl" placeholder="Enter your email" type="text" name="Enter your email">
+                                       <input class="newsl" placeholder="Add meg a neved" type="text" name="name">
                                     </div>
                                     <div class="col-md-4">
-                                       <input class="newsl" placeholder="Enter your email" type="text" name="Enter your email">
+                                       <input class="newsl" placeholder="Email címed" type="email" name="email">
                                     </div>
                                     <div class="col-md-4">
                                        <button class="subsci_btn">feliratkozás</button>
@@ -470,7 +366,7 @@
                               </form>
                            </div>
                         </div>
-                        <div class="col-md-9">
+                        <!-- <div class="col-md-9">
                            <div class="infoma">
                               <h3>Linkek</h3>
                               <ul class="fullink">
@@ -480,8 +376,8 @@
                                  <li><a href="shop.html">Dalok</a></li>
                               </ul>
                            </div>
-                        </div>
-                        <div class="col-md-3">
+                        </div> -->
+                        <!-- <div class="col-md-3">
                            <div class="infoma text_align_left">
                               <ul class="social_icon">
                                  <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -490,7 +386,7 @@
                                  <li><a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                               </ul>
                            </div>
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
