@@ -232,11 +232,13 @@ button {
 
 .d_flex {
      display: flex;
+     justify-content: center;
      align-items: center;
      flex-wrap: wrap;
 }
 
 .read_more {
+     display: inline-block;
      font-size: 17px;
      text-transform: uppercase;
      transition: ease-in all 0.5s;
@@ -248,7 +250,7 @@ button {
 
 .link_btn {
      display: flex;
-     align-items: center;
+     padding-left: 80px;
 }
 
 .read_more:before {
@@ -446,9 +448,16 @@ ul.email li i {
      line-height: 85px;
      color: #2b2b2b;
      font-weight: bold;
-     padding-bottom: 60px;
+     padding-bottom: 20px;
 }
 
+.relative h5{
+     font-size: 30px;
+     line-height: 65px;
+     color: #2b2b2b;
+     font-weight: bold;
+     padding-bottom: 60px;
+}
 .carousel .icon-container {
      display: inline-block;
      font-size: 25px;
@@ -503,19 +512,18 @@ ul.email li i {
 /** end banner section **/
 
 
-/** our class **/
-
-.class {
+/** games **/
+.games {
      padding: 140px 0px 60px 0px;
 }
 
-.class .titlepage p {
+.games .titlepage p {
      font-size: 17px;
      padding-top: 15px;
      color: #2b2b2b;
 }
 
-.class_box {
+.games_box {
      border-radius: 10px;
      background: #da291c;
      margin-bottom: 58px;
@@ -523,7 +531,7 @@ ul.email li i {
      padding: 40px 50px 75px 50px;
 }
 
-.class_box h3 {
+.games_box h3 {
      color: #fff;
      font-size: 25px;
      transition: ease-in all 0.5s;
@@ -532,7 +540,7 @@ ul.email li i {
      padding: 30px 0;
 }
 
-.class_box p {
+.games_box p {
      color: #fff;
      font-size: 16px;
      line-height: 28px;
@@ -547,13 +555,17 @@ ul.email li i {
      margin-bottom: 30px;
 }
 
+.hovered-div {
+     transition: transform .3s ease;
+}
 
-/** end our class **/
+.hovered-div:hover {
+     transform: scale(1.1);
+}
+/** end games **/
 
-
-/** about section **/
-
-.about {
+/** learning **/
+.learning {
      background: url(../images/background.jpg);
      background-size: cover;
      background-position: center center;
@@ -562,18 +574,16 @@ ul.email li i {
      padding-top: 90px;
 }
 
-.about .titlepage {
+.learning .titlepage {
      padding-bottom: 0;
-     max-width: 554px;
-     float: right;
 }
 
-.about .titlepage h2 {
+.learning .titlepage h2 {
      padding-bottom: 30px;
      color: #fff;
 }
 
-.about .titlepage p {
+.learning .titlepage p {
      font-weight: 400;
      font-size: 17px;
      line-height: 30px;
@@ -581,78 +591,94 @@ ul.email li i {
      padding-bottom: 29px;
 }
 
-.about_img figure {
+.learning_img figure {
      margin: 0;
 }
 
-.about_img figure img {
+.learning_img figure img {
      width: 100%;
      margin-bottom: -11px;
 }
-
-.about .read_more {
-     color: #fff;
-     background: transparent;
+.learning-box {
+     position: relative;
+     display: inline-block;
+     overflow: hidden;
+     transition: transform .3s ease, box-shadow .3s ease;
 }
 
-.about .read_more:hover {
-     color: #f0390f;
-     background: transparent;
+.learning-box:hover {
+     transform: scale(1.05);
 }
+/** end learning **/
 
-
-/** end about section **/
-
-
-/** skating **/
-
-.skating {
+/** lyrics **/
+.lyrics {
      background: #fff;
      padding: 90px 30px 90px 30px;
 }
 
-.skating .titlepage p {
+.lyrics .titlepage p {
      padding-top: 15px !important;
      line-height: 30px;
      font-size: 17px;
      color: #262626;
 }
 
-.skating-box figure {
-     margin: 0;
+.lyrics-box {
+     position: relative;
+     display: inline-block;
+     overflow: hidden;
+     transition: transform .3s ease, box-shadow .3s ease;
 }
 
-.skating-box figure img {
-     max-width: 100%;
-     margin-bottom: 35px;
+.lyrics-box:hover {
+     transform: scale(1.05);
 }
 
-.skating .read_more::before {
-     left: 89px;
+.hovered-image {
+     width: 100%;
+     display: block;
+     transition: transform 0.3s ease;
+     padding-top: 20px;
 }
 
+.caption {
+     transform: scale(1.1);position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     text-align: center;
+     color: white;
+     font-size: 17px;
+     font-weight: 600;
+     text-transform: uppercase;
+     box-sizing: border-box;
+     transition: opacity .3s ease;
+     opacity: 1;
+}
 
-/** end skating **/
+.lyrics-box:hover .caption {
+     opacity: 1;
+}
+/** end lyrics **/
 
-
-/** shop section **/
-
-.shop {
+/** aboutUs section **/
+.aboutUs {
      background: #fff;
 }
 
-.shop .titlepage {
+.aboutUs .titlepage {
      padding-bottom: 0;
      max-width: 458px;
      float: left;
 }
 
-.shop .titlepage h2 {
+.aboutUs .titlepage h2 {
      padding-bottom: 30px;
      color: #2d2c2c;
 }
 
-.shop .titlepage p {
+.aboutUs .titlepage p {
      font-weight: 400;
      font-size: 17px;
      line-height: 30px;
@@ -660,24 +686,20 @@ ul.email li i {
      padding-bottom: 29px;
 }
 
-.shop_img {
+.aboutUs_img {
      padding-left: 40px;
 }
 
-.shop_img figure {
+.aboutUs_img figure {
      margin: 0;
 }
 
-.shop .titlepage .read_more::before {
+.aboutUs .titlepage .read_more::before {
      left: 89px;
 }
-
-
-/** end shop section **/
-
+/** end aboutUs **/
 
 /** testimonial **/
-
 .testimonial {
      background: #3e0bce;
      padding: 90px 0;
@@ -808,13 +830,9 @@ ul.email li i {
 .white_bg p {
      color: #2b2b2b;
 }
-
-
 /** end testimonial **/
 
-
 /** footer **/
-
 .footer {
      padding-top: 120px;
      background: #fff;
@@ -873,7 +891,7 @@ ul.conta li i {
      padding-right: 15px;
      text-align: center;
      font-size: 18px;
-     color: #5326d3;
+     color: #046a38;
 }
 
 ul.conta li a {
@@ -903,7 +921,7 @@ ul.conta li a {
 .subsci_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #f0390f;
+     background-color: #da291c;
      text-transform: uppercase;
      color: #fff;
      max-width: 220px;
@@ -917,9 +935,9 @@ ul.conta li a {
 }
 
 .subsci_btn:hover {
-     background-color: #3e0bce;
+     background-color: #046a38;
      transition: ease-in all 0.5s;
-     color: #fff;
+     color: #ffe900;
 }
 
 
@@ -982,7 +1000,7 @@ ul.social_icon li a:hover {
 .copyright {
      margin-top: 90px;
      padding-bottom: 25px;
-     background: #f0390f
+     background: #da291c
 }
 
 .copyright p {
@@ -1026,7 +1044,6 @@ ul.social_icon li a:hover {
 
 
 /** contact **/
-
 .contact {
      background: #fcfcfc;
      padding-bottom: 90px;
@@ -1107,6 +1124,4 @@ ul.social_icon li a:hover {
      color: #501f14;
      opacity: 1;
 }
-
-
 /** end contact **/
