@@ -12,23 +12,23 @@ html, body {
     margin: 0;
   }
 
-section {
+  body {
+    display: grid;
+    place-items: center;
     min-height: 100vh;
-    background: url('../images/background.jpg') no-repeat;
-    background-color: #327aff;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: animateBg 5s linear infinite;
+    background-attachment: fixed;
 }
-
- /* @keyframes animateBg {
-    100% {
-        filter: hue-rotate(360deg);
-    }
-}  */
 
 .sidebar {
     position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
     width: 80px;
@@ -115,7 +115,7 @@ section {
 }
 
 .sidebar ul .list-item.active a {
-    background: #327aff;
+    background: #00abf0;
 }
 
 .sidebar ul li i {
@@ -144,7 +144,7 @@ section {
     transform: translate(-50%, -50%);
     width: 135px;
     height: 35px;
-    background: #327aff;
+    background: #00abf0;
     color: #fff;
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
@@ -165,22 +165,92 @@ section {
 }
 
 .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    min-height: 80vh;
-    background: rgba(255, 255, 255, .9);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    align-items: stretch;
+    justify-content: center;
+    justify-content: flex-start;
+    max-width: 60%;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, .7);
     padding: 60px 40px;
     border-radius: 10px;
+    overflow: auto;
+    margin: auto;
 }
 .container .title {
-    font-size: 75px;
+    font-size: clamp(25px, 5vw, 60px);
     font-weight: 700;
+    align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #c40094;
-    text-shadow: 3px 3px 3px  #327aff;
+    color: #00abf0;
+    text-shadow: 3px 3px 3px  #333;
+    margin: 20px 0;
+}
 
+.container .level-menu {
+    display: flex;
+    flex-wrap: wrap; /* Ha nincs elég hely, automatikusan új sorba tör */
+    justify-content: center; /* Középre igazítás */
+    gap: 20px; /* Távolság a gombok között */
+    padding: 0;
+    margin-top: 40px;
+}
+
+.container .level-list {
+    list-style: none;
+}
+
+.container .level-btn {
+    width: 190px;
+    height: 55px;
+    background: #00abf0;
+    border: .125rem solid #00abf0;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 .6rem rgba(0, 0, 0, .2);
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.container .level-btn:hover {
+    background: transparent;
+    color: #00abf0;
+}
+
+.container .level-list .level-subscribe {
+    padding-top: 20px;
+}
+@media (max-width: 800px) {
+    .container {
+        justify-content: flex-start; /* A tartalom fent kezdődik */
+        display: flex;
+        flex-direction: column;
+        gap: 60px; /* Biztosítja a távolságot */
+    }
+
+    .container .level-menu {
+        margin-top: auto; /* Távol tartja a gombokat a címtől */
+    }
+}
+@media (max-width: 600px) {
+    .container .title {
+        margin-bottom: 60px; /* Nagyobb távolság a gomboktól */
+        font-size: clamp(20px, 5vw, 50px);
+    }
+    .container {
+        min-height: 100vh; /* Így nem zsugorodik össze túlzottan */
+        display: flex;
+        flex-direction: column;
+        gap: 50px; /* Elegendő távolságot biztosít */
+        justify-content: flex-start;
+    }
 }
