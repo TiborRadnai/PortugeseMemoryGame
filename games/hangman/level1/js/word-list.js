@@ -110,8 +110,8 @@ const wordList = [
     { 	"word": "península", 	
 		"hint": "Szárazföld, amit három oldalról víz vesz körül." },
 		
-    { 	"word": "ilha", "hint": 
-		"Teljesen víz által körülvett szárazföld." },
+    { 	"word": "ilha", 
+		"hint": "Teljesen víz által körülvett szárazföld." },
 		
     { 	"word": "praia", 
 		"hint": "Homokos partvidék a víz mellett." },
@@ -190,4 +190,55 @@ const wordList = [
 		
     { 	"word": "plutão", 
 		"hint": "Korábban bolygónak tekintették, most törpebolygó." },
+
+	{ 	"word": "Força", 
+		"hint": "Hatás, ami mozgást vagy alakváltozást okoz." },
+
+	{ 	"word": "Movimento", 
+		"hint": "Testek helyváltoztatása térben és időben." },
+
+	{ 	"word": "Velocidade", 
+		"hint": "A mozgás sebességének mértéke." },
+		
+	{ 	"word": "Massa", 
+		"hint": "Az anyag mennyiségének mértéke." },
+
+	{ 	"word": "Peso", 
+		"hint": "A gravitáció által kifejtett erő." },
+
+	{ 	"word": "Energia", 
+		"hint": "Képesség munkavégzésre vagy változásra." },
+
+	{ 	"word": "Trabalho", 
+		"hint": "Erő által végzett energiaátadás." },
+
+	{ 	"word": "Temperatura", 
+		"hint": "Az anyag részecskéinek átlagos mozgási energiája." },
+
+	{ 	"word": "Pressão",
+		"hint": "Erő, ami egy felületre hat." },
+
+	{ 	"word": "Densidade", 
+		"hint": "Az anyag tömege térfogategységenként." },
+
+	{ 	"word": "Tempo", 
+		"hint": "Az események sorrendjének mértéke." },
+
+	{ 	"word": "Volume", 
+		"hint": "Az anyag által elfoglalt tér mérete." },
+
+	{ 	"word": "Rapidez", 
+		"hint": "A mozgás gyorsasága és iránya." },
+
+	{ 	"word": "Impulso", 
+		"hint": "Mozgásban lévő testek mennyisége." },
+
+	{ 	"word": "Luz", 
+		"hint": "Elektromágneses sugárzás, amit látunk." },
+
+	{ 	"word": "Som", 
+		"hint": "Rezgések által keltett hullámok." },
+
+	{ 	"word": "Gravidade", 
+		"hint": "Vonzerő, ami testeket egymás felé húz." },
 ];

@@ -97,11 +97,64 @@ pages.forEach((_, index) => {
 })
 
 
+function getVoice(lang) {
+    return new Promise(resolve => {
+        let voices = window.speechSynthesis.getVoices();
+        if (voices.length) {
+            resolve(voices.find(voice => voice.lang === lang) || voices[0]);
+        } else {
+            window.speechSynthesis.onvoiceschanged = () => {
+                voices = window.speechSynthesis.getVoices();
+                resolve(voices.find(voice => voice.lang === lang) || voices[0]);
+            };
+        }
+    });
+}
+
+async function getSpeechAudio(text) {
+    const apiKey = 'AIzaSyCp7Sj4pr3O3JfWdRBzL_uEKhd0Ts9dT-I'; // Az API kulcsodat ide írd
+    const url = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${apiKey}`;
+
+    const requestData = {
+        input: { text: text },
+        voice: { languageCode: "pt-PT", ssmlGender: "FEMALE" },
+        audioConfig: { audioEncoding: "MP3" }
+    };
+
+    const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestData)
+    });
+
+    const data = await response.json();
+    return data.audioContent; // Az MP3 hang base64 formátumban
+}
+
+// Portugál szavak kattintásra történő felolvasása
 document.querySelectorAll('.table-contents td:nth-child(2)').forEach(cell => {
-    cell.addEventListener('click', () => {
+    cell.addEventListener('click', async () => {
         const szoveg = cell.textContent;
-        const utterance = new SpeechSynthesisUtterance(szoveg);
-        utterance.lang = 'pt-PT';
-        window.speechSynthesis.speak(utterance);
+        const audioBase64 = await getSpeechAudio(szoveg);
+
+        if (!audioBase64) {
+            console.error("Nem sikerült lekérni a hangfájlt.");
+            return;
+        }
+
+        const audio = new Audio(`data:audio/mp3;base64,${audioBase64}`);
+        audio.play().catch(error => {
+            console.error("Lejátszási hiba:", error);
+            alert("A böngésző blokkolta az automatikus lejátszást. Kérlek, kattints újra!");
+        });
     });
 });
+
+
+
+
+
+
+
+
+
