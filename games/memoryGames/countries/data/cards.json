@@ -1,66 +1,66 @@
 [
     {
-        "image": "../countries/assets/austria.png",
+        "image": "./assets/austria.png",
         "name": "austria"
     },
     {
-        "image": "../countries/assets/brasil.png",
+        "image": "./assets/brasil.png",
         "name": "brasil"
     },
     {
-        "image": "../countries/assets/canada.png",
+        "image": "./assets/canada.png",
         "name": "canada"
     },
     {
-        "image": "../countries/assets/china.png",
+        "image": "./assets/china.png",
         "name": "china"
     },
     {
-        "image": "../countries/assets/european_union.png",
+        "image": "./assets/european_union.png",
         "name": "european_union"
     },
     {
-        "image": "../countries/assets/france.png",
+        "image": "./assets/france.png",
         "name": "france"
     },
     {
-        "image": "../countries/assets/germany.png",
+        "image": "./assets/germany.png",
         "name": "germany"
     },
     {
-        "image": "../countries/assets/hungary.png",
+        "image": "./assets/hungary.png",
         "name": "hungary"
     },
     {
-        "image": "../countries/assets/japan.png",
+        "image": "./assets/japan.png",
         "name": "japan"
     },
     {
-        "image": "../countries/assets/russia.png",
+        "image": "./assets/russia.png",
         "name": "russia"
     },
     {
-        "image": "../countries/assets/norway.png",
+        "image": "./assets/norway.png",
         "name": "norway"
     },
     {
-        "image": "../countries/assets/spain.png",
+        "image": "./assets/spain.png",
         "name": "spain"
     },
     {
-        "image": "../countries/assets/switzerland.png",
+        "image": "./assets/switzerland.png",
         "name": "switzerland"
     },
     {
-        "image": "../countries/assets/united_kingdom.png",
+        "image": "./assets/united_kingdom.png",
         "name": "united_kingdom"
     },
     {
-        "image": "../countries/assets/usa.png",
+        "image": "./assets/usa.png",
         "name": "usa"
     },
     {
-        "image": "../countries/assets/italy.png",
+        "image": "./assets/italy.png",
         "name": "italy"
     }
 ]

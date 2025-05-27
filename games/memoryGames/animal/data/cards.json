@@ -1,66 +1,62 @@
 [
     {
-        "image": "../animal/assets/dog.png",
+        "image": "../assets/dog.png",
         "name": "dog"
     },
     {
-        "image": "../animal/assets/cat.png",
-        "name": "cat"
-    },
-    {
-        "image": "../animal/assets/horse.png",
+        "image": "../assets/horse.png",
         "name": "horse"
     },
     {
-        "image": "../animal/assets/rabbit.png",
+        "image": "../assets/rabbit.png",
         "name": "rabbit"
     },
     {
-        "image": "../animal/assets/ant.png",
+        "image": "../assets/ant.png",
         "name": "ant"
     },
     {
-        "image": "../animal/assets/bird.png",
+        "image": "../assets/bird.png",
         "name": "bird"
     },
     {
-        "image": "../animal/assets/penguin.png",
+        "image": "../assets/penguin.png",
         "name": "penguin"
     },
     {
-        "image": "../animal/assets/chicken.png",
+        "image": "../assets/chicken.png",
         "name": "chicken"
     },
     {
-        "image": "../animal/assets/lion.png",
+        "image": "../assets/lion.png",
         "name": "lion"
     },
     {
-        "image": "../animal/assets/elephant.png",
+        "image": "../assets/elephant.png",
         "name": "elephant"
     },
     {
-        "image": "../animal/assets/mouse.png",
+        "image": "../assets/mouse.png",
         "name": "mouse"
     },
     {
-        "image": "../animal/assets/snake.png",
+        "image": "../assets/snake.png",
         "name": "snake"
     },
     {
-        "image": "../animal/assets/fish.png",
+        "image": "../assets/fish.png",
         "name": "fish"
     },
     {
-        "image": "../animal/assets/frog.png",
+        "image": "../assets/frog.png",
         "name": "frog"
     },
     {
-        "image": "../animal/assets/shark.png",
+        "image": "../assets/shark.png",
         "name": "shark"
     },
     {
-        "image": "../animal/assets/spider.png",
+        "image": "../assets/spider.png",
         "name": "snake"
     }
 ]
